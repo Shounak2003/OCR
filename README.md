@@ -67,15 +67,6 @@ Result:
 ['愚园路', '西', '东', '315', '309', 'Yuyuan Rd.', 'W', 'E']
 ```
 
-Model weights for the chosen language will be automatically downloaded or you can
-download them manually from the [model hub](https://www.jaided.ai/easyocr/modelhub) and put them in the '~/.EasyOCR/model' folder
-
-In case you do not have a GPU, or your GPU has low memory, you can run the model in CPU-only mode by adding `gpu=False`.
-
-``` python
-reader = easyocr.Reader(['ch_sim','en'], gpu=False)
-```
-
 For more information, read the [tutorial](https://www.jaided.ai/easyocr/tutorial) and [API Documentation](https://www.jaided.ai/easyocr/documentation).
 
 #### Run on command line
@@ -151,6 +142,3 @@ See [List of languages in development](https://github.com/JaidedAI/EasyOCR/issue
 
 Due to limited resources, an issue older than 6 months will be automatically closed. Please open an issue again if it is critical.
 
-## Business Inquiries
-
-For Enterprise Support, [Jaided AI](https://www.jaided.ai/) offers full service for custom OCR/AI systems from implementation, training/finetuning and deployment. Click [here](https://www.jaided.ai/contactus?ref=github) to contact us.
